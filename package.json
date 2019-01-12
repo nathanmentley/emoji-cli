@@ -5,7 +5,7 @@
     "scripts": {
         "preinstall": "emojicodec -p clihelper ./🔧/🏁.emojic -o ./libclihelper.a -i ./interface.emojii",
         "build": "yarn run preinstall",
-        "clean": "rm -f ./bin/test && rm -f ./*.a && rm -f ./*.emojii && rm -f ./🔧/*.o",
+        "clean": "rm -f ./bin/test && rm -f ./*.a && rm -f ./*.emojii && rm -f ./🔧/*.o && rm -f ./🧪//*.o",
         "test": "rm -f ./bin/test && emojicodec ./🧪/🏁.emojic -o ./bin/test && ./bin/test"
     }
 }
