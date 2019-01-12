@@ -33,25 +33,17 @@
 
   📗 Executes the app based on all the registered commands and program arguments. 📗
   🔓 ❗️ 🏃 ➡️  🔢 🍇
-    🎞🐇💻❗️ ➡️  args
-
-    💭 if program args are greater than one
-    ↪️ 🐔args❗️ ▶️  1 🍇
-      💭 If argument [1] is the name of a command unwrap it and run it.
-      ↪️ 🐽commands 🐽args 1❗️ ❗️ ➡️  command 🍇
-        ↩️ 🏃 command ❗️
-      🍉
-      🙅 🍇
-        💭 else try to run the built in help command
-        ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
-          ↩️ 🏃 command ❗️
-        🍉
-      🍉
+    🆕 🗺 🆕 ❗️ ➡️  context
+    📛 context❗️ ➡️  commandName 
+    
+    💭 If argument [1] is the name of a command unwrap it and run it.
+    ↪️ 🐽commands commandName ❗️ ➡️  command 🍇
+      ↩️ 🏃 command context ❗️
     🍉
     🙅 🍇
       💭 else try to run the built in help command
       ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
-        ↩️ 🏃 command ❗️
+        ↩️ 🏃 command context ❗️
       🍉
     🍉
 

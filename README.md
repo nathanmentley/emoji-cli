@@ -48,7 +48,7 @@ main.emojic
   🍉
 
   💭 Define some logic for the command to run when it's executed
-  🔓 ❗️ 🏃 ➡️ 🔢🍇
+  🔓 ❗️ 🏃 context 🔶🐍🗺 ➡️ 🔢🍇
     😀 🔤Example Message From 🚒 Command🔤 ❗️
     ↩️ 0
   🍉
