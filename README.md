@@ -80,20 +80,19 @@ yarn run build
 
 ### Building the clihelper example project.
 
-The example project in the /example directory of the repo has a few symlinks in the packages/clihelper directory that point to the interface.emojii/libclihelper.a outputted by the library makefile.
+In [{reporoot}/example]: 
 
-So the first step is to build the library following the directions above. Once that's complete you can cd into the /example directory of the repo and use that package.json
-
-running in [{reporoot}/example]: 
+Install required packages using yarn into the packages/ directory (there is a .yarnrc file to set the modules directory to packages instead of node_modules):
 ```bash
-yarn run build
+yarn install
 ```
 
-will build the example project using the version of the library built earlier.
+Build the emojicode project using yarn:
+```bash
+yarn build
+```
 
-running
+You can now run the example app by running this:
 ```bash
 bin/app Example
 ```
-
-will run the example app once it's built.
