@@ -1,4 +1,5 @@
-bin/
+example/bin/
+example/packages/
 *.swp
 *.o
 *.a
