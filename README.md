@@ -1,4 +1,4 @@
-# 👑🏥 - A CLI Library for Emojicode.
+# clihelper - A CLI Library for Emojicode.
 
 A work in progress CLI Command Library in emojicode.
 
