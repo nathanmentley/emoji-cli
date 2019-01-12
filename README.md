@@ -12,7 +12,7 @@ yarn add https://github.com/nathanmentley/emoji-cli.git --modules-folder package
 
 main.emojic
 ```emojicode
-💭 Import core
+💭 Import clihelper into 🐍 namespace
 📦 clihelper 🐍
 
 💭 Import app specific commands
