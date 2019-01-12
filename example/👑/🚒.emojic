@@ -10,20 +10,24 @@
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 🔚💭
 
-📗 🚒 class <--  implements ⚙. It puts out fires 📗
+💭 Create a new command class that implements ⚙
+📗 🚒 class. It's a ⚙ command and tt puts out fires 📗
 🐇 🚒 🍇
-  🐊 ⚙
+  🐊 🔶🐍⚙
   
   🆕 🍇🍉
 
+  💭 Return a command name
   🔓 ❗️ 📛 ➡️ 🔡🍇
     ↩️ 🔤Example🔤
   🍉
 
+  💭 Return a command description
   🔓 ❗️ 💬 ➡️ 🔡🍇
     ↩️ 🔤Puts Out Fires🔤
   🍉
 
+  💭 Define some logic for the command to run when it's executed
   🔓 ❗️ 🏃 ➡️ 🔢🍇
     😀 🔤Example Message From 🚒 Command🔤 ❗️
     ↩️ 0

@@ -13,7 +13,7 @@ yarn add https://github.com/nathanmentley/emoji-cli.git --modules-folder package
 main.emojic
 ```emojicode
 💭 Import core
-📜 🔤🔧/🚂.emojic🔤
+📦 clihelper 🐍
 
 💭 Import app specific commands
 📜 🔤👑/🚒.emojic🔤
@@ -21,7 +21,7 @@ main.emojic
 💭 Main app block 
 🏁➡️ 🔢🍇
     💭 Build app object and register all commands.
-    🆕 🚂 🆕 ❗️ ➡️  app
+    🆕 🔶🐍🚂 🆕 ❗️ ➡️  app
     🔗 app 🆕 🚒 🆕 ❗️ ❗️
 
     💭 Execute the app.
@@ -31,20 +31,23 @@ main.emojic
 
 👑/🚒.emojic
 ```emojicode
-💭 🚒 class <--  implements ⚙. It puts out fires
+💭 Create a new command class that implements ⚙
 🐇 🚒 🍇
-  🐊 ⚙
+  🐊 🔶🐍⚙
   
   🆕 🍇🍉
 
+  💭 Return a command name
   🔓 ❗️ 📛 ➡️ 🔡🍇
     ↩️ 🔤Example🔤
   🍉
 
+  💭 Return a command description
   🔓 ❗️ 💬 ➡️ 🔡🍇
     ↩️ 🔤Puts Out Fires🔤
   🍉
 
+  💭 Define some logic for the command to run when it's executed
   🔓 ❗️ 🏃 ➡️ 🔢🍇
     😀 🔤Example Message From 🚒 Command🔤 ❗️
     ↩️ 0
