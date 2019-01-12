@@ -10,23 +10,18 @@
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 🔚💭
 
-📜 🔤🐊/⚙.emojic🔤
+💭 Import core
+📦 clihelper 🐍
 
-📗 👑 class <-- Command wrapper class. It'll wrap user defined ⚙ and make it usable for 🚂. 📗
-🐇 👑 🍇
-  💭 Logic delegate. Used to define command logic.
-  🖍🆕 logic 🍬⚙
-  
-  💭 init
-  🆕 🍼 logic 🍬⚙ 🍇🍉
+💭 Import app specific commands
+📜 🔤👑/🚒.emojic🔤
 
-  📗 Runs the command. 📗
-  🔓 ❗️ 🏃 ➡️ 🔢🍇
-    💭 try to unwrap logic. If successful lets execute it.
-    ↪️ logic ➡️ logic 🍇
-      ↩️  🏃logic❗️
-    🍉
+💭 Main app block 
+🏁➡️ 🔢🍇
+    💭 Build app object and register all commands.
+    🆕 🚂 🆕 ❗️ ➡️  app
+    🔗 app 🆕 🚒 🆕 ❗️ ❗️
 
-    ↩️ -1
-  🍉
+    💭 Execute the app.
+    ↩️ 🏃 app ❗️
 🍉

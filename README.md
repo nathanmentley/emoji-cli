@@ -2,6 +2,12 @@
 
 A work in progress CLI Command Library in emojicode.
 
+## Install
+
+```bash
+yarn add https://github.com/nathanmentley/emoji-cli.git --modules-folder packages
+```
+
 ## Example
 
 main.emojic
