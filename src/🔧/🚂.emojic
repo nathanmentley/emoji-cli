@@ -1,0 +1,55 @@
+💭🔜
+    👑🏥 - A CLI Library for Emojicode.
+
+    Copyright 2019 Nathan Mentley
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+🔚💭
+
+📜 🔤👑.emojic🔤
+📜 🔤👑/🏥.emojic🔤
+
+💭 🚂 class <- Main App Class. Runs confirgured commands based on passed arguments.
+🐇 🚂 🍇
+  🖍🆕 commands 🍯🐚👑🍆
+
+  🆕 🍇
+    🍯
+      🔤help🔤 🆕 👑 🆕 🆕 🏥 🆕 ❗️❗️
+    🍆 ➡️  🖍 commands
+  🍉
+
+  📗 Registers a command into the app. 📗
+  🔓 ❗️ 🔗 logic ⚙ 🍇
+     🆕 👑 🆕 logic ❗️ ➡️  🐽 commands 📛 logic ❗️❗️
+  🍉
+
+  📗 Executes the app based on all the registered commands and program arguments. 📗
+  🔓 ❗️ 🏃 ➡️  🔢 🍇
+    🎞🐇💻❗️ ➡️  args
+
+    ↪️ 🐔args❗️ ▶️  1 🍇
+      ↪️ 🐽commands 🐽args 1❗️ ❗️ ➡️  command 🍇
+        ↩️ 🏃 command ❗️
+      🍉
+      🙅 🍇
+        ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
+          ↩️ 🏃 command ❗️
+        🍉
+      🍉
+    🍉
+    🙅 🍇
+      ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
+        ↩️ 🏃 command ❗️
+      🍉
+    🍉
+
+    ↩️ -1
+  🍉
+🍉
+
+
