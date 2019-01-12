@@ -1,6 +1,6 @@
 # clihelper - A CLI Library for Emojicode.
 
-A work in progress CLI Command Library in emojicode.
+A work in progress CLI Command Library written for emojicode 0.8.
 
 ## Install
 
@@ -80,19 +80,6 @@ yarn run build
 
 ### Building the clihelper example project.
 
-In [{reporoot}/example]: 
+The example project is located here: https://github.com/nathanmentley/emoji-cli-example
 
-Install required packages using yarn into the packages/ directory (there is a .yarnrc file to set the modules directory to packages instead of node_modules):
-```bash
-yarn install
-```
-
-Build the emojicode project using yarn:
-```bash
-yarn build
-```
-
-You can now run the example app by running this:
-```bash
-bin/app Example
-```
+Clone that repo and follow the included readme.
