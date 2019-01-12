@@ -1,0 +1,10 @@
+{
+    "name": "clihelper-example",
+    "version": "0.0.1",
+    "license": "MIT",
+    "scripts": {
+        "build": "emojicodec 🏁.emojic -o bin/app",
+        "clean": "rm -f ./*.o && rm -f ./bin/app",
+        "run": "bin/app Example"
+    }
+}

@@ -71,22 +71,22 @@ Example Message From 🚒 Command
 ## Building
 
 ### Building the clihelper library from source.
-There is an included makefile that should make this pretty easy to build.
+There is an included package.json with build scripts that should make this pretty easy to build.
 
 In the repo root you should be able to just run:
 ```bash
-make build
+yarn run build
 ```
 
 ### Building the clihelper example project.
 
 The example project in the /example directory of the repo has a few symlinks in the packages/clihelper directory that point to the interface.emojii/libclihelper.a outputted by the library makefile.
 
-So the first step is to build the library following the directions above. Once that's complete you can cd into the /example directory of the repo and use that makefile
+So the first step is to build the library following the directions above. Once that's complete you can cd into the /example directory of the repo and use that package.json
 
 running in [{reporoot}/example]: 
 ```bash
-make build
+yarn run build
 ```
 
 will build the example project using the version of the library built earlier.
