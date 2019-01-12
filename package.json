@@ -3,9 +3,6 @@
     "version": "0.0.1",
     "license": "MIT",
     "scripts": {
-        "preinstall": "emojicodec -p clihelper ./src/🏁.emojic -o ./libclihelper.a -i ./interface.emojii"
-    },
-    "dependencies": {
-        "clihelper": "https://github.com/nathanmentley/emoji-cli.git"
+        "preinstall": "emojicodec -p clihelper ./🔧/🏁.emojic -o ./libclihelper.a -i ./interface.emojii"
     }
 }
