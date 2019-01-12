@@ -17,7 +17,9 @@
 🐇 🚂 🍇
   🖍🆕 commands 🍯🐚👑🍆
 
+  💭 init
   🆕 🍇
+    💭 setup command dictionary with built in help command.
     🍯
       🔤help🔤 🆕 👑 🆕 🆕 🏥 🆕 ❗️❗️
     🍆 ➡️  🖍 commands
@@ -25,6 +27,7 @@
 
   📗 Registers a command into the app. 📗
   🔓 ❗️ 🔗 logic ⚙ 🍇
+     💭 wrap ⚙ delegate in an instance of our 👑 class.. and push that into the commands dictionary.
      🆕 👑 🆕 logic ❗️ ➡️  🐽 commands 📛 logic ❗️❗️
   🍉
 
@@ -32,22 +35,27 @@
   🔓 ❗️ 🏃 ➡️  🔢 🍇
     🎞🐇💻❗️ ➡️  args
 
+    💭 if program args are greater than one
     ↪️ 🐔args❗️ ▶️  1 🍇
+      💭 If argument [1] is the name of a command unwrap it and run it.
       ↪️ 🐽commands 🐽args 1❗️ ❗️ ➡️  command 🍇
         ↩️ 🏃 command ❗️
       🍉
       🙅 🍇
+        💭 else try to run the built in help command
         ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
           ↩️ 🏃 command ❗️
         🍉
       🍉
     🍉
     🙅 🍇
+      💭 else try to run the built in help command
       ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
         ↩️ 🏃 command ❗️
       🍉
     🍉
 
+    💭 when all fails return -1 in defeat.
     ↩️ -1
   🍉
 🍉

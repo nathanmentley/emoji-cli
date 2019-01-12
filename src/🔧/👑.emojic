@@ -14,12 +14,15 @@
 
 💭 👑 class <-- Command wrapper class. It'll wrap user defined ⚙ and make it usable for 🚂.
 🐇 👑 🍇
+  💭 Logic delegate. Used to define command logic.
   🖍🆕 logic 🍬⚙
   
   🆕 🍼 logic 🍬⚙ 🍇🍉
 
+  📗 Runs the command. 📗
   🔓 ❗️ 🏃 ➡️ 🔢🍇
-    ↪️ logic ➡️ logic  🍇
+    💭 try to unwrap logic. If successful lets execute it.
+    ↪️ logic ➡️ logic 🍇
       ↩️  🏃logic❗️
     🍉
 

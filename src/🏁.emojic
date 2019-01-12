@@ -13,15 +13,15 @@
 💭 Import core
 📜 🔤🔧/🚂.emojic🔤
 
-💭 Import app commands
+💭 Import app specific commands
 📜 🔤👑/🚒.emojic🔤
 
-
+💭 Main app block 
 🏁➡️ 🔢🍇
     💭 Build app object and register all commands.
     🆕 🚂 🆕 ❗️ ➡️  app
     🔗 app 🆕 🚒 🆕 ❗️ ❗️
 
-    💭 The app with the program arguments.
+    💭 Execute the app.
     ↩️ 🏃 app ❗️
 🍉
