@@ -10,8 +10,10 @@
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 🔚💭
 
+📜 🔤✋.emojic🔤
 📜 🔤👑.emojic🔤
-📜 🔤👑/🏥.emojic🔤
+
+💭 📜 🔤👑/🏥.emojic🔤
 
 📗 🚂 class <- Main App Class. Runs confirgured commands based on passed arguments. 📗
 🌍 🐇 🚂 🍇
@@ -19,10 +21,8 @@
 
   💭 init
   🆕 🍇
-    💭 setup command dictionary with built in help command.
-    🍯
-      🔤help🔤 🆕 👑 🆕 🆕 🏥 🆕 ❗️❗️
-    🍆 ➡️  🖍 commands
+    💭 setup command dictionary.
+    🆕🍯🐚👑🍆🐸❗️➡️  🖍 commands
   🍉
 
   📗 Registers a command into the app. 📗
@@ -32,22 +32,33 @@
   🍉
 
   📗 Executes the app based on all the registered commands and program arguments. 📗
-  🔓 ❗️ 🏃 ➡️  🔢 🍇
+  🔓 ❗️ 🏃 ➡️  🚨✋🔢 🍇
     🆕 🗺 🆕 ❗️ ➡️  context
-    📛 context❗️ ➡️  commandName 
+    📛 context❗️ ➡️  commandName
     
-    💭 If argument [1] is the name of a command unwrap it and run it.
-    ↪️ 🐽commands commandName ❗️ ➡️  command 🍇
-      ↩️ 🏃 command context ❗️
+    
+    💭 If no command is passed throw eeror
+    ↪️  commandName 🙌 🤷 🍇
+      🚨🆕✋🙎❗️ 💭 throw error
     🍉
     🙅 🍇
-      💭 else try to run the built in help command
-      ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
-        ↩️ 🏃 command context ❗️
+      💭 else lets try to pull the command out of the registered commands
+      ↪️ commandName➡️ commandName🍇
+        💭 If argument [1] is the name of a command unwrap it and run it.
+        ↪️ 🐽commands commandName ❗️ ➡️  command 🍇
+          ↩️ 🏃 command context ❗️
+        🍉
+        🙅 🍇
+          💭 else try to run the built in help command
+          ↪️ 🐽commands 🔤help🔤 ❗️ ➡️  command 🍇
+            ↩️ 🏃 command context ❗️
+          🍉
+        🍉
       🍉
     🍉
-
-    💭 when all fails return -1 in defeat.
-    ↩️ -1
+    
+    💭 when all fails throw unknown command error
+    🚨🆕✋🤦❗️  💭 throw error
   🍉
 🍉
+

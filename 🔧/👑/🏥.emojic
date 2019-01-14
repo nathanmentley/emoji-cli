@@ -16,14 +16,22 @@
   
   🆕 🍇🍉
 
+  📗 Returns a collection of command parameter definitions 📗
+  🔓 ❗️ 🖇 ➡️  🍨🐚📎🍆🍇
+    ↩️ 🆕🍨🐚📎🍆🐸❗️
+  🍉
+
+  📗 Returns a collection of command parameter definitions 📗
   🔓 ❗️ 📛 ➡️ 🔡🍇
     ↩️ 🔤Help🔤
   🍉
 
+  📗 Returns a description of the command. This is used for the help display to explain the command to the user. 📗
   🔓 ❗️ 💬 ➡️ 🔡🍇
     ↩️ 🔤Displays a help message🔤
   🍉
 
+  📗 Runs the command logic. This logic should return an int that will be used as the exit code. 📗
   🔓 ❗️ 🏃 context 🗺 ➡️ 🔢🍇
     😀 🔤Help Message From Command🔤 ❗️
     ↩️ 0

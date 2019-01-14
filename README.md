@@ -122,3 +122,15 @@ yarn run build
 The example project is located here: https://github.com/nathanmentley/emoji-cli-example
 
 Clone that repo and follow the included readme.
+
+### Why is this testtube package not found
+
+On linux x86_64 the emojicode 0.8.1 installer doesn't install the testtube package. To build the unit tests you'll need to manually build the testtube package and install it.
+
+You should download the 0.8.1 source: https://github.com/emojicode/emojicode/archive/v0.8.1.tar.gz
+
+Assuming your emojicode packages are installed to /usr/local/EmojicodePackages cd into the testtube directory and run this:
+
+```bash
+sudo emojicodec -p testtube -o /usr/local/EmojicodePackages/testtube/libtesttube.a -i /usr/local/EmojicodePackages/testtube/interface.emojii testtube.emojic
+```
