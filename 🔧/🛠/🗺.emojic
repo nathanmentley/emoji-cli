@@ -19,11 +19,21 @@
     🎞🐇💻❗️ ➡️ 🖍 args
   🍉
 
+  📗 Returns the passed command name 📗
   🔓 ❗️ 📛 ➡️ 🍬🔡🍇
     ↪️ 🐔args❗️ ▶️ 1 🍇
       ↩️ 🐽args 1❗️
     🍉
     
     ↩️ 🤷
+  🍉
+
+  📗 Pulls all the parameters out into a dictionary 📗
+  🔓 ❗️ 🏞 parameterDefs 🍨🐚📎🍆 ➡️  🍯🐚🔡🍆 🍇
+    🆕 🍯🐚🔡🍆 🐸❗️ ➡️  🖍🆕 ret
+      🔂 def parameterDefs 🍇
+        🔤Help🔤 ➡️  🐽 ret 🔤key🔤 ❗️
+      🍉
+    ↩️  ret
   🍉
 🍉

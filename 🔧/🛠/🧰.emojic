@@ -10,20 +10,11 @@
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 🔚💭
 
-📜 🔤🗺.emojic🔤
-📜 🔤📎.emojic🔤
-
-📗 ⚙ protocol. This most be conformed to for every user defined command. It basically defines command logic. 📗
-🌍 🐊 ⚙ 🍇
-  📗 Returns a collection of command parameter definitions 📗
-  🔓 ❗️ 🖇 ➡️  🍨🐚📎🍆
- 
-  📗 returns the name of the command. this is used when calling the command from the command line. example: ./app {commandname} 📗
-  🔓 ❗️ 📛 ➡️ 🔡
-  
-  📗 Returns a description of the command. This is used for the help display to explain the command to the user. 📗
-  🔓 ❗️ 💬 ➡️ 🔡
-  
-  📗 Runs the command logic. This logic should return an int that will be used as the exit code. 📗
-  🔓 ❗️ 🏃 context 🗺 ➡️ 🔢
+📗 ✋ enum <- Data type for parameter. 📗
+🌍 🦃 🧰 🍇
+  🔘🧱 💭  A string
+  💭 currently only string is supported
+  💭🔘🏛 💭 A number
+  💭🔘🖖 💭 A bool
 🍉
+
