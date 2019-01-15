@@ -11,7 +11,7 @@
 🔚💭
 
 📗 🏥 The basic help command. This command will display a help message based on the configured 🚂. 📗
-🐇 🏥 🍇
+🌍 🐇 🏥 🍇
   🐊 ⚙
   
   🆕 🍇🍉
@@ -32,8 +32,8 @@
   🍉
 
   📗 Runs the command logic. This logic should return an int that will be used as the exit code. 📗
-  🔓 ❗️ 🏃 context 🗺 ➡️ 🔢🍇
-    😀 🔤Help Message From Command🔤 ❗️
+  🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
+    😀🔤Help Message From Command🔤❗️
     ↩️ 0
   🍉
 🍉

@@ -11,12 +11,14 @@
 🔚💭
 
 📗 🗺 contains and describes the context in which the app command was executed. Extra arguments, working directory, whatever the state was that was passed to this logic. 📗
-🌍 🐇 🗺 🍇
+🐇 🗺 🍇
   🖍🆕 args 🍨🐚🔡🍆
+  🖍🆕 params 🍬🍯🐚🔡🍆
   
   💭 init
   🆕 🍇
-    🎞🐇💻❗️ ➡️ 🖍 args
+    🎞🐇💻❗️ ➡️  🖍 args
+    🤷 ➡️  🖍 params
   🍉
 
   📗 Returns the passed command name 📗
@@ -30,10 +32,29 @@
 
   📗 Pulls all the parameters out into a dictionary 📗
   🔓 ❗️ 🏞 parameterDefs 🍨🐚📎🍆 ➡️  🍯🐚🔡🍆 🍇
-    🆕 🍯🐚🔡🍆 🐸❗️ ➡️  🖍🆕 ret
+    ↪️  params 🙌 🤷 🍇
+      🆕 🍯🐚🔡🍆 🐸❗️ ➡️  🖍🆕 ret
+      
       🔂 def parameterDefs 🍇
-        🔤Help🔤 ➡️  🐽 ret 🔤key🔤 ❗️
+        🌲 🐕 def ❗️ ➡️  value
+        ↪️ value➡️ value🍇
+          value ➡️  🐽 ret 🔤key🔤 ❗️
+        🍉
+        🙅🍇
+          💭 if no variable was passed store blank. Should we just not store it at all?
+          🔤🔤 ➡️  🐽 ret 🔤key🔤 ❗️
+        🍉
       🍉
-    ↩️  ret
+
+      ret ➡️ 🖍 params
+    🍉
+    
+    ↩️  🍺 params
+  🍉
+
+  📗 Pulls a single parameter from the cli arguments from a 📎 [parameter def] 📗
+  🔓 ❗️ 🌲 def 📎 ➡️  🍬🔡 🍇
+    💭 TODO: Get value from args. IF it doesn't exist use defined default if it exists. IF not retrun nil
+    ↩️ 🤷
   🍉
 🍉

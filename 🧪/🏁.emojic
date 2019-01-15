@@ -38,8 +38,7 @@
   🍉
 
   💭 Define some logic for the command to run when it's executed
-  🔓 ❗️ 🏃 context 🔶🐍🗺 ➡️ 🔢🍇
-
+  🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
     😀 🔤Example Message From 🚒 Command🔤 ❗️
     ↩️ 0
   🍉
@@ -48,9 +47,11 @@
 
 🐇🦔 🧪 🍇
   ✒️ ❗️ 🏁 🍇
-    💭 Build app object and register all commands.
+    💭 Build app object.
     🆕 🔶🐍🚂 🆕 ❗️ ➡️  app
-    🔗 app 🆕 🚒 🆕 ❗️ ❗️
+
+    💭 Register all commands. By assigning them to the chain method of our app object.
+    🆕 🚒 🆕 ❗️ ➡️  🔗 app ❗️
 
     💭 Execute the app.
     🏃 app ❗️
