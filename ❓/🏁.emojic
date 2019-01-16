@@ -21,7 +21,30 @@
 
   💭 Return a list of parameters
   🔓 ❗️ 🖇 ➡️  🍨🐚🔶🐍📎🍆🍇
-    ↩️ 🆕🍨🐚🔶🐍📎🍆🐸❗️
+    🆕🍨🐚🔶🐍📎🍆🐸❗️ ➡️  🖍 🆕 ret
+    
+    🐻ret
+      🆕🔶🐍📎🆕 
+        🔤name🔤
+        🔤a defined parameter🔤
+        🔤key🔤
+        🔤k🔤
+        🔤default🔤
+        👎
+      ❗️
+    ❗️
+    🐻ret
+      🆕🔶🐍📎🆕 
+        🔤name 2🔤
+        🔤a second defined parameter🔤
+        🔤key2🔤
+        🔤l🔤
+        🔤default2🔤
+        👎
+      ❗️
+    ❗️
+
+    ↩️ ret
   🍉
 
   💭 Return a command name
@@ -48,7 +71,30 @@
 
   💭 Return a list of parameters
   🔓 ❗️ 🖇 ➡️  🍨🐚🔶🐍📎🍆🍇
-    ↩️ 🆕🍨🐚🔶🐍📎🍆🐸❗️
+    🆕🍨🐚🔶🐍📎🍆🐸❗️ ➡️  🖍 🆕 ret
+    
+    🐻ret
+      🆕🔶🐍📎🆕 
+        🔤name🔤
+        🔤a defined parameter🔤
+        🔤key🔤
+        🔤k🔤
+        🔤default🔤
+        👎
+      ❗️
+    ❗️
+    🐻ret
+      🆕🔶🐍📎🆕 
+        🔤name 2🔤
+        🔤a second defined parameter🔤
+        🔤key2🔤
+        🔤l🔤
+        🔤default2🔤
+        👎
+      ❗️
+    ❗️
+
+    ↩️ ret
   🍉
 
   💭 Return a command name
@@ -75,7 +121,7 @@
   💭 Register all commands. By assigning them to the chain method of our app object.
   🆕 🚒 🆕 ❗️ ➡️  🔗 app ❗️
   🆕 🚌 🆕 ❗️ ➡️  🔗 app ❗️
-  🆕 🔶🐍🏥 🆕 ❗️ ➡️  🔗 app ❗️
+  🆕 🔶🐍🏥 🆕 app ❗️ ➡️  🔗 app ❗️
 
   💭 Execute the app.
   🥑 ret 🏃 app ❗️ 🍇

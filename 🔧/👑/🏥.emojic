@@ -13,8 +13,10 @@
 📗 🏥 The basic help command. This command will display a help message based on the configured 🚂. 📗
 🌍 🐇 🏥 🍇
   🐊 ⚙
+
+  🖍🆕 app 🚂
   
-  🆕 🍇🍉
+  🆕 🍼 app 🚂 🍇🍉
 
   📗 Returns a collection of command parameter definitions 📗
   🔓 ❗️ 🖇 ➡️  🍨🐚📎🍆🍇
@@ -33,6 +35,12 @@
 
   📗 Runs the command logic. This logic should return an int that will be used as the exit code. 📗
   🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
+    🔗 app ❗️ ➡️  commands
+
+    🔂 command 🐙commands❗️ 🍇
+      😀 🔤Help Message For A Command🔤 ❗️
+    🍉
+
     😀🔤Help Message From Command🔤❗️
     ↩️ 0
   🍉
