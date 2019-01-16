@@ -10,28 +10,56 @@
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 🔚💭
 
-📦 clihelper 🐍
+🐇 🚌 🍇
+  🐊 🔶🐍⚙
+  
+  🆕 🍇🍉
 
-📜 🔤👑/🚒.emojic🔤
-📜 🔤👑/🚌.emojic🔤
+  💭 Return a list of parameters
+  🔓 ❗️ 🖇 ➡️  🍨🐚🔶🐍📎🍆🍇
+    🆕🍨🐚🔶🐍📎🍆🐸❗️ ➡️  🖍 🆕 ret
+    
+    🐻ret
+      🆕🔶🐍📎🆕 
+        🔤name🔤
+        🔤a defined parameter🔤
+        🔤key🔤
+        🔤k🔤
+        🔤default🔤
+        👎
+      ❗️
+    ❗️
+    🐻ret
+      🆕🔶🐍📎🆕 
+        🔤name 2🔤
+        🔤a second defined parameter🔤
+        🔤key2🔤
+        🔤l🔤
+        🔤default2🔤
+        👎
+      ❗️
+    ❗️
 
-🏁 ➡️ 🔢 🍇
-  💭 Build app object.
-  🆕 🔶🐍🚂 🆕
-    🔤Example App🔤
-    🔤Example App Description🔤
-  ❗️ ➡️  app
-
-  💭 Register all commands. By assigning them to the chain method of our app object.
-  🆕 🚒 🆕 ❗️ ➡️  🔗 app ❗️
-  🆕 🚌 🆕 ❗️ ➡️  🔗 app ❗️
-  🆕 🔶🐍🏥 🆕 app ❗️ ➡️  🔗 app ❗️
-
-  💭 Execute the app.
-  🥑 ret 🏃 app ❗️ 🍇
     ↩️ ret
   🍉
-  🙅 error 🍇
-    ↩️ -1
+
+  💭 Return a command name
+  🔓 ❗️ 📛 ➡️ 🔡🍇
+    ↩️ 🔤Bus🔤
+  🍉
+
+  💭 Return a command description
+  🔓 ❗️ 💬 ➡️ 🔡🍇
+    ↩️ 🔤Does Bus Stuff🔤
+  🍉
+
+  💭 Define some logic for the command to run when it's executed
+  🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
+    ↪️  🐽 args 🔤key2🔤 ❗️ ➡️  param 🍇
+      😀param❗️
+    🍉
+
+    😀 🔤Example Message From 🚌 Command🔤 ❗️
+    ↩️ 0
   🍉
 🍉
