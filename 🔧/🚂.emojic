@@ -23,7 +23,7 @@
   📗 Registers a command into the app. 📗
   🔓 ➡️  🔗 logic ⚙ 🍇
      💭 wrap ⚙ delegate in an instance of our 👑 class.. and push that into the commands dictionary.
-     🆕 👑 🆕 logic ❗️ ➡️  🐽 commands 📛 logic ❗️❗️
+     🆕 👑 🆕 logic ❗️ ➡️  🐽 commands 📪 📛 logic ❗️❗️❗️
   🍉
 
   📗 Executes the app based on all the registered commands and program arguments. 📗
@@ -34,21 +34,23 @@
     
     💭 If no command is passed throw eeror
     ↪️  commandName 🙌 🤷 🍇
-      💭TODO: USE error handling.  🚨🆕✋🙎❗️ 💭 throw error
-      ↪️ 🐽commands 🔤Help🔤 ❗️ ➡️  command 🍇
+      ↪️ 🐽commands 📪🔤Help🔤❗️❗️ ➡️  command 🍇
         ↩️ 🏃 command context ❗️
+      🍉
+      🙅 🍇
+         🚨🆕✋🙎❗️
       🍉
     🍉
     🙅 🍇
       💭 else lets try to pull the command out of the registered commands
       ↪️ commandName➡️ commandName🍇
         💭 If argument [1] is the name of a command unwrap it and run it.
-        ↪️ 🐽commands commandName ❗️ ➡️  command 🍇
+        ↪️ 🐽commands 📪commandName ❗️❗️ ➡️  command 🍇
           ↩️ 🏃 command context ❗️
         🍉
         🙅 🍇
           💭 else try to run the built in help command
-          ↪️ 🐽commands 🔤Help🔤 ❗️ ➡️  command 🍇
+          ↪️ 🐽commands 📪🔤Help🔤❗️❗️ ➡️  command 🍇
             ↩️ 🏃 command context ❗️
           🍉
         🍉

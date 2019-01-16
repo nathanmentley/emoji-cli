@@ -1,0 +1,87 @@
+💭🔜
+    clihelper - A CLI Library for Emojicode.
+
+    Copyright 2019 Nathan Mentley
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+🔚💭
+
+📦 clihelper 🐍
+
+💭 Example Project
+
+🐇 🚒 🍇
+  🐊 🔶🐍⚙
+  
+  🆕 🍇🍉
+
+  💭 Return a list of parameters
+  🔓 ❗️ 🖇 ➡️  🍨🐚🔶🐍📎🍆🍇
+    ↩️ 🆕🍨🐚🔶🐍📎🍆🐸❗️
+  🍉
+
+  💭 Return a command name
+  🔓 ❗️ 📛 ➡️ 🔡🍇
+    ↩️ 🔤Fire-Truck🔤
+  🍉
+
+  💭 Return a command description
+  🔓 ❗️ 💬 ➡️ 🔡🍇
+    ↩️ 🔤Puts Out Fires🔤
+  🍉
+
+  💭 Define some logic for the command to run when it's executed
+  🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
+    😀 🔤Example Message From 🚒 Command🔤 ❗️
+    ↩️ 0
+  🍉
+🍉
+
+🐇 🚌 🍇
+  🐊 🔶🐍⚙
+  
+  🆕 🍇🍉
+
+  💭 Return a list of parameters
+  🔓 ❗️ 🖇 ➡️  🍨🐚🔶🐍📎🍆🍇
+    ↩️ 🆕🍨🐚🔶🐍📎🍆🐸❗️
+  🍉
+
+  💭 Return a command name
+  🔓 ❗️ 📛 ➡️ 🔡🍇
+    ↩️ 🔤Bus🔤
+  🍉
+
+  💭 Return a command description
+  🔓 ❗️ 💬 ➡️ 🔡🍇
+    ↩️ 🔤Does Bus Stuff🔤
+  🍉
+
+  💭 Define some logic for the command to run when it's executed
+  🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
+    😀 🔤Example Message From 🚌 Command🔤 ❗️
+    ↩️ 0
+  🍉
+🍉
+
+🏁 ➡️ 🔢 🍇
+  💭 Build app object.
+  🆕 🔶🐍🚂 🆕 ❗️ ➡️  app
+
+  💭 Register all commands. By assigning them to the chain method of our app object.
+  🆕 🚒 🆕 ❗️ ➡️  🔗 app ❗️
+  🆕 🚌 🆕 ❗️ ➡️  🔗 app ❗️
+  🆕 🔶🐍🏥 🆕 ❗️ ➡️  🔗 app ❗️
+
+  💭 Execute the app.
+  🥑 ret 🏃 app ❗️ 🍇
+    ↩️ ret
+  🍉
+  🙅 error 🍇🍉
+
+  ↩️ -1
+🍉
