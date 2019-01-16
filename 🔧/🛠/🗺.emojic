@@ -37,12 +37,13 @@
       
       🔂 def parameterDefs 🍇
         🌲 🐕 def ❗️ ➡️  value
-        ↪️ value➡️ value🍇
-          value ➡️  🐽 ret 🔤key🔤 ❗️
+        
+        ↪️  value ➡️  value 🍇
+          value ➡️  🐽 ret 📪 🔑 def ❓ ❗️ ❗️
         🍉
-        🙅🍇
+        🙅 🍇
           💭 if no variable was passed store blank. Should we just not store it at all?
-          🔤🔤 ➡️  🐽 ret 🔤key🔤 ❗️
+          🔤no value🔤 ➡️  🐽 ret 📪 🔑 def ❓ ❗️ ❗️
         🍉
       🍉
 
@@ -54,7 +55,26 @@
 
   📗 Pulls a single parameter from the cli arguments from a 📎 [parameter def] 📗
   🔓 ❗️ 🌲 def 📎 ➡️  🍬🔡 🍇
-    💭 TODO: Get value from args. IF it doesn't exist use defined default if it exists. IF not retrun nil
-    ↩️ 🤷
+    👎 ➡️  🖍🆕 valueIsNext
+
+    🔂 arg args 🍇
+      ↪️  valueIsNext 🍇
+        ↩️ arg
+      🍉
+
+      ↪️  🍪🔤--🔤 📪🔑def❓❗️🍪 🙌 📪arg❗️ 🍇
+        👍 ➡️  🖍 valueIsNext
+      🍉
+      ↪️  🧒def❓ ➡️  short 🍇
+        ↪️  🍪🔤-🔤 📪short❗️🍪 🙌 📪arg❗️ 🍇
+          👍 ➡️  🖍 valueIsNext
+        🍉
+      🍉
+    🍉
+
+    ↪️  🚗def❓ ➡️  default 🍇
+      ↩️ default
+    🍉
+    ↩️ 🔤🔤
   🍉
 🍉
