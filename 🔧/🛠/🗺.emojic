@@ -62,11 +62,11 @@
         ↩️ arg
       🍉
 
-      ↪️  🍪🔤--🔤 📪🔑def❓❗️🍪 🙌 📪arg❗️ 🍇
+      ↪️  🍪🔤--🔤 🔑def❓🍪 🙌 arg 🍇
         👍 ➡️  🖍 valueIsNext
       🍉
       ↪️  🧒def❓ ➡️  short 🍇
-        ↪️  🍪🔤-🔤 📪short❗️🍪 🙌 📪arg❗️ 🍇
+        ↪️  🍪🔤-🔤 short🍪 🙌 arg 🍇
           👍 ➡️  🖍 valueIsNext
         🍉
       🍉
@@ -75,6 +75,8 @@
     ↪️  🚗def❓ ➡️  default 🍇
       ↩️ default
     🍉
-    ↩️ 🔤🔤
+    🙅 🍇
+      ↩️ 🔤🔤
+    🍉
   🍉
 🍉
