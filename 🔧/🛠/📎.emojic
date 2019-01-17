@@ -19,6 +19,7 @@
   🖍🆕 short 🍬🔡
   🖍🆕 default 🍬🔡
   🖍🆕 isFlag 👌
+  🖍🆕 isRequired 👌
 
   💭 init
   🆕
@@ -28,59 +29,37 @@
     🍼 short 🍬🔡
     🍼 default 🍬🔡
     🍼 isFlag 👌
+    🍼 isRequired 👌
   🍇🍉
 
 
   💭 getters
-  📗  📗
+  📗 Gets the parameter name 📗
   🔓 ❓ 📛 ➡️  🔡 🍇
     ↩️ name
   🍉
-  📗  📗
+  📗 Gets the parameter description 📗
   🔓 ❓ 💬 ➡️  🔡 🍇
     ↩️ description
   🍉
-  📗  📗
+  📗 Gets the key used in the command line for the parameter 📗
   🔓 ❓ 🔑 ➡️  🔡 🍇
     ↩️ key
   🍉
-  📗  📗
+  📗 Gets the short single letter identifier for the parameter used in the command line 📗
   🔓 ❓ 🧒 ➡️  🍬🔡 🍇
     ↩️ short
   🍉
-  📗  📗
+  📗 Gets the default value for the parameter if no value is passed 📗
   🔓 ❓ 🚗 ➡️  🍬🔡 🍇
     ↩️ default
   🍉
-  📗  📗
+  📗 Gets a bool value if the parameter is a simple boolean flag 📗
   🔓 ❓ 🚩 ➡️  👌 🍇
     ↩️ isFlag
   🍉
-
-
-  💭 setters
-  📗  📗
-  🖍 🔓 ➡️ 📛 value 🔡 🍇
-    value ➡️  🖍 name
-  🍉
-  📗  📗
-  🖍 🔓 ➡️ 💬 value 🔡 🍇
-    value ➡️  🖍 description
-  🍉
-  📗  📗
-  🖍 🔓 ➡️ 🔑 value 🔡 🍇
-    value ➡️  🖍 key
-  🍉
-  📗  📗
-  🖍 🔓 ➡️ 🧒 value 🍬🔡 🍇
-    value ➡️  🖍 short
-  🍉
-  📗  📗
-  🖍 🔓 ➡️ 🚗 value 🍬🔡 🍇
-    value ➡️  🖍 default
-  🍉
-  📗  📗
-  🖍 🔓 ➡️ 🚩 value  👌 🍇
-    value ➡️  🖍 isFlag
+  📗 Gets a bool value if the parameter is required 📗
+  🔓 ❓ 🧠 ➡️  👌 🍇
+    ↩️ isRequired
   🍉
 🍉

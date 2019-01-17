@@ -31,19 +31,22 @@
   🍉
 
   📗 Pulls all the parameters out into a dictionary 📗
-  🔓 ❓ 🏞 parameterDefs 🍨🐚📎🍆 ➡️  🍯🐚🔡🍆 🍇
+  🔓 ❓ 🏞 parameterDefs 🍨🐚📎🍆 ➡️  🚨✋🍯🐚🔡🍆 🍇
     ↪️  params 🙌 🤷 🍇
       🆕 🍯🐚🔡🍆 🐸❗️ ➡️  🖍🆕 ret
       
       🔂 def parameterDefs 🍇
-        🌲 🐕 def ❓ ➡️  value
-        
-        ↪️  value ➡️  value 🍇
-          value ➡️  🐽 ret 📪 🔑 def ❓ ❗️ ❗️
+        🥑 value 🌲 🐕 def ❓ 🍇
+          ↪️ value ➡️ value 🍇
+            value ➡️ 🐽 ret 📪 🔑 def ❓ ❗️ ❗️
+          🍉
+          🙅 🍇
+            💭 if no variable was passed store blank. Should we just not store it at all?
+            🔤🔤 ➡️ 🐽 ret 📪 🔑 def ❓ ❗️ ❗️
+          🍉
         🍉
-        🙅 🍇
-          💭 if no variable was passed store blank. Should we just not store it at all?
-          🔤no value🔤 ➡️  🐽 ret 📪 🔑 def ❓ ❗️ ❗️
+        🙅 error 🍇
+          🚨error
         🍉
       🍉
 
@@ -54,7 +57,7 @@
   🍉
 
   📗 Pulls a single parameter from the cli arguments from a 📎 [parameter def] 📗
-  🔓 ❓ 🌲 def 📎 ➡️  🍬🔡 🍇
+  🔓 ❓ 🌲 def 📎 ➡️  🚨✋🍬🔡 🍇
     👎 ➡️  🖍🆕 valueIsNext
 
     🔂 arg args 🍇
@@ -67,25 +70,29 @@
           ↩️  🔤👍🔤
         🍉
         🙅 🍇
-          👍 ➡️  🖍 valueIsNext
+          👍 ➡️ 🖍 valueIsNext
         🍉
       🍉
-      ↪️  🧒def❓ ➡️  short 🍇
+      ↪️  🧒def❓ ➡️ short 🍇
         ↪️  🍪🔤-🔤 short🍪 🙌 arg 🍇
           ↪️  🚩 def ❓ 🍇
             ↩️  🔤👍🔤
           🍉
           🙅 🍇
-            👍 ➡️  🖍 valueIsNext
+            👍 ➡️ 🖍 valueIsNext
           🍉
         🍉
       🍉
     🍉
 
-    ↪️  🚗def❓ ➡️  default 🍇
+    ↪️ 🚗def❓ ➡️ default 🍇
       ↩️ default
     🍉
     🙅 🍇
+      ↪️ 🧠def❓ 🍇
+        💭 when required parameter is completely missing
+        🚨🆕✋🛑❗️ 💭 throw error
+      🍉
       ↩️ 🔤🔤
     🍉
   🍉
