@@ -23,17 +23,17 @@
   🆕 🍇🍉
 
   💭 Return a list of parameters
-  🔓 ❗️ 🖇 ➡️  🍨🐚🔶🐍📎🍆🍇
+  🔓 ❓ 🖇 ➡️  🍨🐚🔶🐍📎🍆🍇
     ↩️ 🆕🍨🐚🔶🐍📎🍆🐸❗️
   🍉
 
   💭 Return a command name
-  🔓 ❗️ 📛 ➡️ 🔡🍇
+  🔓 ❓ 📛 ➡️ 🔡🍇
     ↩️ 🔤Example🔤
   🍉
 
   💭 Return a command description
-  🔓 ❗️ 💬 ➡️ 🔡🍇
+  🔓 ❓ 💬 ➡️ 🔡🍇
     ↩️ 🔤Puts Out Fires🔤
   🍉
 
@@ -48,7 +48,7 @@
 🐇🦔 🧪 🍇
   ✒️ ❗️ 🏁 🍇
     💭 Build app object.
-    🆕 🔶🐍🚂 🆕 🔤Test App🔤 🔤Test App Description🔤 ❗️ ➡️  app
+    🆕 🔶🐍🚂 🆕 🔤Test App🔤 🔤Test App Description🔤 0.1 ❗️ ➡️  app
 
     💭 Register all commands. By assigning them to the chain method of our app object.
     🆕 🚒 🆕 ❗️ ➡️  🔗 app ❗️

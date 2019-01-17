@@ -19,41 +19,41 @@
   🆕 🍼 app 🚂 🍇🍉
 
   📗 Returns a collection of command parameter definitions 📗
-  🔓 ❗️ 🖇 ➡️  🍨🐚📎🍆🍇
+  🔓 ❓ 🖇 ➡️  🍨🐚📎🍆🍇
     ↩️ 🆕🍨🐚📎🍆🐸❗️
   🍉
 
   📗 Returns a collection of command parameter definitions 📗
-  🔓 ❗️ 📛 ➡️ 🔡🍇
+  🔓 ❓ 📛 ➡️ 🔡🍇
     ↩️ 🔤Help🔤
   🍉
 
   📗 Returns a description of the command. This is used for the help display to explain the command to the user. 📗
-  🔓 ❗️ 💬 ➡️ 🔡🍇
+  🔓 ❓ 💬 ➡️ 🔡🍇
     ↩️ 🔤Displays a help message🔤
   🍉
 
   📗 Runs the command logic. This logic should return an int that will be used as the exit code. 📗
   🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
-    🔗 app ❗️ ➡️  commands
+    🔗 app ❓ ➡️  commands
 
     🆕🔠🆕❗️➡️ sBuilder
-    🐻sBuilder 📛app❗️❗️
+    🐻sBuilder 📛app❓❗️
     🐻sBuilder 🔤 - 🔤❗️
-    🐻sBuilder 💬app❗️❗️
+    🐻sBuilder 💬app❓❗️
     😀🔡sBuilder❗️❗️
 
     🔂 key 🐙commands❗️ 🍇
       🐽 commands key ❗️ ➡️  command
       ↪️ command➡️ command🍇
-        ↪️ ⚙command❗️➡️ command🍇
+        ↪️ ⚙command❓➡️ command🍇
           🆕🔠🆕❗️➡️ sBuilder2
-          🐻sBuilder2 📛command❗️❗️
+          🐻sBuilder2 📛command❓❗️
           🐻sBuilder2 🔤 - 🔤❗️
-          🐻sBuilder2 💬command❗️❗️
+          🐻sBuilder2 💬command❓❗️
           😀🔡sBuilder2❗️❗️
 
-          🔂 param 🖇 command ❗️ 🍇
+          🔂 param 🖇 command ❓ 🍇
             🆕🔠🆕❗️➡️ sBuilder3
             🐻sBuilder3 🔤  🔤❗️
             🐻sBuilder3 📛param❓❗️

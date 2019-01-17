@@ -14,39 +14,51 @@
 🌍 🐇 🚂 🍇
   🖍🆕 name 🔡
   🖍🆕 description 🔡
+  🖍🆕 version 💯
   🖍🆕 commands 🍯🐚👑🍆
 
   💭 init
-  🆕 🍼 name 🔡 🍼 description 🔡 🍇
+  🆕 🍼 name 🔡 🍼 description 🔡  🍼 version 💯 🍇
     💭 setup command dictionary.
     🆕🍯🐚👑🍆🐸❗️➡️  🖍 commands
   🍉
 
+  💭 getters
+
   📗 Returns a collection of command parameter definitions 📗
-  🔓 ❗️ 📛 ➡️ 🔡🍇
+  🔓 ❓ 📛 ➡️ 🔡🍇
     ↩️  name
   🍉
 
   📗 Returns a description of the command. This is used for the help display to explain the command to the user. 📗
-  🔓 ❗️ 💬 ➡️ 🔡🍇
+  🔓 ❓ 💬 ➡️ 🔡🍇
     ↩️  description
   🍉
 
-  📗 Registers a command into the app. 📗
-  🔓 ➡️  🔗 logic ⚙ 🍇
-     💭 wrap ⚙ delegate in an instance of our 👑 class.. and push that into the commands dictionary.
-     🆕 👑 🆕 logic ❗️ ➡️  🐽 commands 📪 📛 logic ❗️❗️❗️
+  📗 Returns a collection of command parameter definitions 📗
+  🔓 ❓ ♾ ➡️ 💯🍇
+    ↩️  version
   🍉
 
   📗 Gets the command dictionary 📗
-  🔓 ❗️ 🔗 ➡️  🍯🐚👑🍆 🍇
+  🔓 ❓ 🔗 ➡️  🍯🐚👑🍆 🍇
     ↩️  commands
   🍉
 
+  💭 setters
+  
+  📗 Registers a command into the app. 📗
+  🔓 ➡️  🔗 logic ⚙ 🍇
+     💭 wrap ⚙ delegate in an instance of our 👑 class.. and push that into the commands dictionary.
+     🆕 👑 🆕 logic ❗️ ➡️  🐽 commands 📪 📛 logic ❓❗️❗️
+  🍉
+
+  💭 logic
+  
   📗 Executes the app based on all the registered commands and program arguments. 📗
   🔓 ❗️ 🏃 ➡️  🚨✋🔢 🍇
     🆕 🗺 🆕 ❗️ ➡️  context
-    📛 context❗️ ➡️  commandName
+    📛 context❓ ➡️  commandName
     
     
     💭 If no command is passed throw eeror
@@ -78,4 +90,3 @@
     🚨🆕✋🤦❗️  💭 throw error
   🍉
 🍉
-

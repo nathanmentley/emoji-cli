@@ -13,13 +13,13 @@
 📗 ⚙ protocol. This most be conformed to for every user defined command. It basically defines command logic. 📗
 🌍 🐊 ⚙ 🍇
   📗 Returns a collection of command parameter definitions 📗
-  🔓 ❗️ 🖇 ➡️  🍨🐚📎🍆
+  🔓 ❓ 🖇 ➡️  🍨🐚📎🍆
  
   📗 returns the name of the command. this is used when calling the command from the command line. example: ./app {commandname} 📗
-  🔓 ❗️ 📛 ➡️ 🔡
+  🔓 ❓ 📛 ➡️ 🔡
   
   📗 Returns a description of the command. This is used for the help display to explain the command to the user. 📗
-  🔓 ❗️ 💬 ➡️ 🔡
+  🔓 ❓ 💬 ➡️ 🔡
 
   💭 TODO: I don't like passing a loosely typed dictionary of strings. Maybe we could make this generic and use
   💭        some future reflection stuff to populate a param model. Or something?
