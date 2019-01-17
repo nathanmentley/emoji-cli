@@ -21,14 +21,15 @@
 🏁 ➡️ 🔢 🍇
   💭 Build app object.
   🆕 🔶🐍🚂 🆕
-    🔤Example App🔤
-    🔤Example App Description🔤
-    0.1
+    🔤Example App🔤 💭 App Name
+    🔤Example App Description🔤 💭 App Description
+    0.1 💭 App Version
   ❗️ ➡️  app
 
   💭 Register all commands. By assigning them to the chain method of our app object.
   🆕 🚒 🆕 ❗️ ➡️  🔗 app ❗️
   🆕 🚌 🆕 ❗️ ➡️  🔗 app ❗️
+  💭 Optionally register the built in help command.
   🆕 🔶🐍🏥 🆕 app ❗️ ➡️  🔗 app ❗️
 
   💭 Execute the app.
@@ -36,6 +37,7 @@
     ↩️ ret
   🍉
   🙅 error 🍇
+    💭 Optionally use the built in error handling.
     ⚕ app error ❗️
     ↩️ -1
   🍉

@@ -21,21 +21,10 @@
     
     🐻ret
       🆕🔶🐍📎🆕 
-        🔤name🔤
-        🔤a defined parameter🔤
-        🔤key🔤
-        🔤k🔤
-        🔤default🔤
-        👎
-        👎
-      ❗️
-    ❗️
-    🐻ret
-      🆕🔶🐍📎🆕 
-        🔤name 2🔤
-        🔤a second defined parameter🔤
-        🔤key2🔤
-        🔤l🔤
+        🔤Echo String🔤
+        🔤a string that will be echoed by the command🔤
+        🔤echo🔤
+        🔤e🔤
         🤷‍
         👎
         👍
@@ -47,21 +36,20 @@
 
   💭 Return a command name
   🔓 ❓ 📛 ➡️ 🔡🍇
-    ↩️ 🔤Bus🔤
+    ↩️ 🔤Echo🔤
   🍉
 
   💭 Return a command description
   🔓 ❓ 💬 ➡️ 🔡🍇
-    ↩️ 🔤Does Bus Stuff🔤
+    ↩️ 🔤Echos the passed parameter🔤
   🍉
 
   💭 Define some logic for the command to run when it's executed
   🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
-    ↪️  🐽 args 🔤key2🔤 ❗️ ➡️  param 🍇
+    ↪️  🐽 args 🔤echo🔤 ❗️ ➡️  param 🍇
       😀param❗️
     🍉
 
-    😀 🔤Example Message From 🚌 Command🔤 ❗️
     ↩️ 0
   🍉
 🍉

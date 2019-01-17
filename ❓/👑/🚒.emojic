@@ -21,24 +21,13 @@
     
     🐻ret
       🆕🔶🐍📎🆕 
-        🔤name🔤
-        🔤a defined parameter🔤
-        🔤key🔤
-        🔤k🔤
-        🔤default🔤
-        👎
-        👎
-      ❗️
-    ❗️
-    🐻ret
-      🆕🔶🐍📎🆕 
-        🔤name 2🔤
-        🔤a second defined parameter🔤
-        🔤key2🔤
-        🔤l🔤
-        🔤default2🔤
-        👎
-        👎
+        🔤name🔤 💭command name
+        🔤a defined parameter🔤 💭command description
+        🔤key🔤 💭command key. Used to as program arg 1 to call the command
+        🔤k🔤 💭optional short key.
+        🔤default🔤 💭optional default value
+        👎 💭is this a flag parameter
+        👎 💭is this parameter requred
       ❗️
     ❗️
 
