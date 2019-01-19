@@ -2,3 +2,6 @@
 # yarn lockfile v1
 
 
+"colorconsole@https://github.com/nathanmentley/emoji-color-console.git":
+  version "0.0.1"
+  resolved "https://github.com/nathanmentley/emoji-color-console.git#ed33ecf78d301f33303213eda772777792a73b01"

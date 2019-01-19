@@ -37,8 +37,17 @@
   🔓 ❗️ 🏃 args 🍯🐚🔡🍆 ➡️ 🔢🍇
     🔗 app ❓ ➡️  commands
 
+    🖌🐇🔶🦎🖌
+      📛app❓
+      🍨
+        🆕🔶🦎🎨💙❗️
+        🆕🔶🦎🎨🌩❗️
+        🆕🔶🦎🎨🌧❗️
+      🍆
+    ❗️ ➡️ appName
+
     🆕🔠🆕❗️➡️ sBuilder
-    🐻sBuilder 📛app❓❗️
+    🐻sBuilder appName❗️
     🐻sBuilder 🔤 - 🔤❗️
     🐻sBuilder 💬app❓❗️
     😀🔡sBuilder❗️❗️
@@ -47,16 +56,30 @@
       🐽 commands key ❗️ ➡️  command
       ↪️ command➡️ command🍇
         ↪️ ⚙command❓➡️ command🍇
+          🖌🐇🔶🦎🖌
+            📛command❓
+            🍨
+              🆕🔶🦎🎨💛❗️
+            🍆
+          ❗➡️ commandName
+
           🆕🔠🆕❗️➡️ sBuilder2
-          🐻sBuilder2 📛command❓❗️
+          🐻sBuilder2 commandName❗️
           🐻sBuilder2 🔤 - 🔤❗️
           🐻sBuilder2 💬command❓❗️
           😀🔡sBuilder2❗️❗️
 
           🔂 param 🖇 command ❓ 🍇
+            🖌🐇🔶🦎🖌
+              📛param❓
+              🍨
+                🆕🔶🦎🎨💚❗️
+              🍆
+            ❗➡️ paramName
+  
             🆕🔠🆕❗️➡️ sBuilder3
             🐻sBuilder3 🔤  🔤❗️
-            🐻sBuilder3 📛param❓❗️
+            🐻sBuilder3 paramName❗️
             🐻sBuilder3 🔤 - 🔤❗️
             🐻sBuilder3 💬param❓❗️
             😀🔡sBuilder3❗️❗️
