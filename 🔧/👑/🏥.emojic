@@ -45,11 +45,17 @@
         🆕🔶🦎🎨🌧❗️
       🍆
     ❗️ ➡️ appName
+    🖌🐇🔶🦎🖌
+      💬app❓
+      🍨
+        🆕🔶🦎🎨🌧❗️
+      🍆
+    ❗️ ➡️ appDesc
 
     🆕🔠🆕❗️➡️ sBuilder
     🐻sBuilder appName❗️
     🐻sBuilder 🔤 - 🔤❗️
-    🐻sBuilder 💬app❓❗️
+    🐻sBuilder appDesc❗️
     😀🔡sBuilder❗️❗️
 
     🔂 key 🐙commands❗️ 🍇
@@ -70,6 +76,7 @@
           😀🔡sBuilder2❗️❗️
 
           🔂 param 🖇 command ❓ 🍇
+            💭 format parameter name
             🖌🐇🔶🦎🖌
               📛param❓
               🍨
@@ -77,9 +84,27 @@
               🍆
             ❗➡️ paramName
   
+            💭 use string builder to build parameter string
             🆕🔠🆕❗️➡️ sBuilder3
             🐻sBuilder3 🔤  🔤❗️
             🐻sBuilder3 paramName❗️
+
+            💭 add key
+            🐻sBuilder3 🔤 - 🔤❗️
+            🐻sBuilder3 🔑param❓❗️
+
+            💭 add optional short if it exists
+            ↪️ 🧒param❓ ➡️ short 🍇
+              🐻sBuilder3 🔤 - 🔤❗️
+              🐻sBuilder3 short❗️
+            🍉
+
+            💭 add optional default if it exists
+            ↪️ 🚗param❓ ➡️ default 🍇
+              🐻sBuilder3 🔤 - 🔤❗️
+              🐻sBuilder3 default❗️
+            🍉
+
             🐻sBuilder3 🔤 - 🔤❗️
             🐻sBuilder3 💬param❓❗️
             😀🔡sBuilder3❗️❗️
