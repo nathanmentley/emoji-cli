@@ -17,13 +17,31 @@
 📜 🔤👑/🚒.emojic🔤
 📜 🔤👑/🚌.emojic🔤
 
+
+🐇 ⚓ 🍇
+  🐊 🔶🐍⛽
+  
+  🆕 🍇🍉
+
+  🔓 ❓ 📛 ➡️ 🔡🍇
+    ↩️ 🔤Example App🔤
+  🍉
+
+  🔓 ❓ 💬 ➡️ 🔡🍇
+    ↩️ 🔤Example App Description🔤
+  🍉
+
+  🔓 ❓ ♾ ➡️ 💯🍇
+    ↩️ 0.1
+  🍉
+🍉
+
+
 💭main block
 🏁 ➡️ 🔢 🍇
   💭 Build app object.
   🆕 🔶🐍🚂 🆕
-    🔤Example App🔤 💭 App Name
-    🔤Example App Description🔤 💭 App Description
-    0.1 💭 App Version
+    🆕 ⚓ 🆕 ❗️
   ❗️ ➡️  app
 
   💭 Register all commands. By assigning them to the chain method of our app object.

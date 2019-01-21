@@ -12,13 +12,11 @@
 
 📗 🚂 class <- Main App Class. Runs confirgured commands based on passed arguments. 📗
 🌍 🐇 🚂 🍇
-  🖍🆕 name 🔡
-  🖍🆕 description 🔡
-  🖍🆕 version 💯
+  🖍🆕 appDelegate ⛽
   🖍🆕 commands 🍯🐚👑🍆
 
   💭 init
-  🆕 🍼 name 🔡 🍼 description 🔡  🍼 version 💯 🍇
+  🆕 🍼 appDelegate ⛽ 🍇
     💭 setup command dictionary.
     🆕🍯🐚👑🍆🐸❗️➡️  🖍 commands
   🍉
@@ -27,17 +25,17 @@
 
   📗 Returns a collection of command parameter definitions 📗
   🔓 ❓ 📛 ➡️ 🔡🍇
-    ↩️  name
+    ↩️ 📛 appDelegate ❓
   🍉
 
   📗 Returns a description of the command. This is used for the help display to explain the command to the user. 📗
   🔓 ❓ 💬 ➡️ 🔡🍇
-    ↩️  description
+    ↩️ 💬 appDelegate ❓
   🍉
 
   📗 Returns a collection of command parameter definitions 📗
   🔓 ❓ ♾ ➡️ 💯🍇
-    ↩️  version
+    ↩️ ♾ appDelegate ❓
   🍉
 
   📗 Gets the command dictionary 📗
@@ -93,7 +91,7 @@
   🔓 ❗️ ⚕ error ✋ 🍇
     😀
       🖌🐇🔶🦎🖌
-        name
+        📛 🐕 ❓
         🍨
           🆕🔶🦎🎨💙❗️
           🆕🔶🦎🎨🌩❗️
