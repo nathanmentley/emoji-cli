@@ -70,9 +70,17 @@
           ❗➡️ commandName
 
           🆕🔠🆕❗️➡️ sBuilder2
+          🐻sBuilder2 🔤    🔤❗️
           🐻sBuilder2 commandName❗️
           🐻sBuilder2 🔤 - 🔤❗️
-          🐻sBuilder2 💬command❓❗️
+          🐻sBuilder2
+            🖌🐇🔶🦎🖌
+              💬command❓
+              🍨
+                🆕🔶🦎🎨🌧❗️
+              🍆
+            ❗
+          ❗️
           😀🔡sBuilder2❗️❗️
 
           🔂 param 🖇 command ❓ 🍇
@@ -86,27 +94,41 @@
   
             💭 use string builder to build parameter string
             🆕🔠🆕❗️➡️ sBuilder3
-            🐻sBuilder3 🔤  🔤❗️
+            🐻sBuilder3 🔤❌t🔤❗️
             🐻sBuilder3 paramName❗️
 
             💭 add key
-            🐻sBuilder3 🔤 - 🔤❗️
+            🐻sBuilder3 🔤❌t --🔤❗️
             🐻sBuilder3 🔑param❓❗️
 
             💭 add optional short if it exists
             ↪️ 🧒param❓ ➡️ short 🍇
-              🐻sBuilder3 🔤 - 🔤❗️
+              🐻sBuilder3 🔤❌t -🔤❗️
               🐻sBuilder3 short❗️
             🍉
 
             💭 add optional default if it exists
             ↪️ 🚗param❓ ➡️ default 🍇
-              🐻sBuilder3 🔤 - 🔤❗️
-              🐻sBuilder3 default❗️
+              🐻sBuilder3 🔤❌t default value: 🔤❗️
+              🐻sBuilder3 
+                🖌🐇🔶🦎🖌
+                  default
+                  🍨
+                    🆕🔶🦎🎨💙❗️
+                  🍆
+                ❗
+              ❗️
             🍉
 
-            🐻sBuilder3 🔤 - 🔤❗️
-            🐻sBuilder3 💬param❓❗️
+            🐻sBuilder3 🔤❌n❌t❌t🔤❗️
+            🐻sBuilder3 
+              🖌🐇🔶🦎🖌
+                💬param❓
+                🍨
+                  🆕🔶🦎🎨🌧❗️
+                🍆
+              ❗
+            ❗️
             😀🔡sBuilder3❗️❗️
           🍉
         🍉
