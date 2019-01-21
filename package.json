@@ -1,6 +1,6 @@
 {
     "name": "clihelper",
-    "version": "0.0.1",
+    "version": "0.0.9",
     "license": "MIT",
     "scripts": {
         "preinstall": "emojicodec -p clihelper ./🔧/🏁.emojic -o ./libclihelper.a -i ./interface.emojii",
