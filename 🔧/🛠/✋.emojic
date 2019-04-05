@@ -11,9 +11,12 @@
 🔚💭
 
 📗 ✋ enum <- A collection of error codes. 📗
-🌍 🦃 ✋ 🍇
-  🔘🤦 💭 Couldn't execute a command
-  🔘🙎 💭 No command passed
-  🔘🛑 💭 Missing Required Parameter
+🌍 🐇 🚧🔸✋ 🚧 🍇
+  🆕 message 🔡 🍇
+    ⤴️🆕 message❗️
+  🍉
+  💭🔘🤦 💭 Couldn't execute a command
+  💭🔘🙎 💭 No command passed
+  💭🔘🛑 💭 Missing Required Parameter
 🍉
 

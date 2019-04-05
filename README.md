@@ -1,6 +1,6 @@
 # clihelper - A CLI Library for Emojicode.
 
-A work in progress CLI Command Library written for emojicode 0.8.
+A work in progress CLI Command Library written for emojicode 0.9.
 
 ## Install
 

@@ -54,17 +54,17 @@
   💭 logic
   
   📗 Executes the app based on all the registered commands and program arguments. 📗
-  🔓 ❗️ 🏃 ➡️  🚨✋🔢 🍇
+  🔓 ❗️ 🏃 ➡️ 🔢 🚧🚧🔸✋ 🍇
     🆕 🗺 🆕 ❗️ ➡️  context
     📛 context❓ ➡️  commandName
     
-    💭 If no command is passed throw eeror
+    💭 If no command is passed throw error
     ↪️ commandName 🙌 🤷 🍇
       ↪️ 🐽commands 📪🔤Help🔤❗️❗️ ➡️  command 🍇
-        ↩️ 🏃 command context ❗️
+        ↩️🔺🏃 command context ❗️
       🍉
       🙅 🍇
-         🚨🆕✋🙎❗️
+         🚨🆕🚧🔸✋🆕🔤No default command.🔤❗️️
       🍉
     🍉
     🙅 🍇
@@ -72,23 +72,24 @@
       ↪️ commandName➡️ commandName🍇
         💭 If argument [1] is the name of a command unwrap it and run it.
         ↪️ 🐽commands 📪commandName ❗️❗️ ➡️  command 🍇
-          ↩️ 🏃 command context ❗️
+          ↩️🔺🏃 command context ❗️
         🍉
         🙅 🍇
           💭 else try to run the built in help command
           ↪️ 🐽commands 📪🔤Help🔤❗️❗️ ➡️  command 🍇
-            ↩️ 🏃 command context ❗️
+            ↩️🔺🏃 command context ❗️
           🍉
         🍉
       🍉
     🍉
     
     💭 when all fails throw unknown command error
-    🚨🆕✋🤦❗️  💭 throw error
+    🚨🆕🚧🔸✋🆕🔤Unknown Command.🔤❗️️  💭 throw error
   🍉
 
   📗 Built in way to handle errors. This isn't needed, but could be used in the catch statement if the developer doesn't want to override exception handling with an custom logic. 📗
-  🔓 ❗️ ⚕ error ✋ 🍇
+  🔓 ❗️ ⚕ error 🚧🔸✋ 🍇
+    💭🔜 
     😀
       🖌🐇🔶🦎🖌
         📛 🐕 ❓
@@ -138,5 +139,6 @@
         ❗
       ❗️
     🍉
+    🔚💭
   🍉
 🍉

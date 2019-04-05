@@ -31,7 +31,7 @@
   🍉
 
   📗 Pulls all the parameters out into a dictionary 📗
-  🔓 ❓ 🏞 parameterDefs 🍨🐚📎🍆 ➡️  🚨✋🍯🐚🔡🍆 🍇
+  🔓 ❓ 🏞 parameterDefs 🍨🐚📎🍆 ➡️ 🍯🐚🔡🍆 🚧🚧🔸✋ 🍇
     ↪️  params 🙌 🤷 🍇
       🆕 🍯🐚🔡🍆 🐸❗️ ➡️  🖍🆕 ret
       
@@ -57,7 +57,7 @@
   🍉
 
   📗 Pulls a single parameter from the cli arguments from a 📎 [parameter def] 📗
-  🔓 ❓ 🌲 def 📎 ➡️  🚨✋🍬🔡 🍇
+  🔓 ❓ 🌲 def 📎 ➡️ 🍬🔡 🚧🚧🔸✋ 🍇
     👎 ➡️  🖍🆕 valueIsNext
 
     🔂 arg args 🍇
@@ -91,7 +91,7 @@
     🙅 🍇
       ↪️ 🧠def❓ 🍇
         💭 when required parameter is completely missing
-        🚨🆕✋🛑❗️ 💭 throw error
+        🚨🆕🚧🔸✋🆕🔤Missing parameter🔤❗️️
       🍉
       ↩️ 🔤🔤
     🍉
