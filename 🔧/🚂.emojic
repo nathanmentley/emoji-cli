@@ -89,56 +89,6 @@
 
   📗 Built in way to handle errors. This isn't needed, but could be used in the catch statement if the developer doesn't want to override exception handling with an custom logic. 📗
   🔓 ❗️ ⚕ error 🚧🔸✋ 🍇
-    💭🔜 
-    😀
-      🖌🐇🔶🦎🖌
-        📛 🐕 ❓
-        🍨
-          🆕🔶🦎🎨💙❗️
-          🆕🔶🦎🎨🌩❗️
-          🆕🔶🦎🎨🌧❗️
-        🍆
-      ❗
-    ❗️
-    😀
-      🖌🐇🔶🦎🖌
-        🔤An error occured.🔤
-        🍨
-          🆕🔶🦎🎨❤❗️
-        🍆
-      ❗
-    ❗️
-
-    ↪️ error 🙌 🆕✋🤦❗️ 🍇
-      😀
-        🖌🐇🔶🦎🖌
-          🔤For an unknown reason the command could not be executed.🔤
-          🍨
-            🆕🔶🦎🎨🌧❗️
-          🍆
-        ❗
-      ❗️
-    🍉
-    ↪️ error 🙌 🆕✋🙎❗️ 🍇
-      😀
-        🖌🐇🔶🦎🖌
-          🔤Command not found.🔤
-          🍨
-            🆕🔶🦎🎨🌧❗️
-          🍆
-        ❗
-      ❗️
-    🍉
-    ↪️ error 🙌 🆕✋🛑❗️ 🍇
-        😀
-        🖌🐇🔶🦎🖌
-          🔤A required parameter is missing from the command. See help for more details.🔤
-          🍨
-            🆕🔶🦎🎨🌧❗️
-          🍆
-        ❗
-      ❗️
-    🍉
-    🔚💭
+    😀 💬 error ❗️ ❗
   🍉
 🍉
