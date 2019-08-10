@@ -87,6 +87,18 @@
     🚨🆕🚧🔸✋🆕🔤Unknown Command.🔤❗️️  💭 throw error
   🍉
 
+  📗 Executes the app based on all the registered commands and program arguments and automatically handles any clihelper exceptions... and if they happen returns -1. 📗
+  🔓 ❗️ 👟 ➡️ 🔢 🍇
+    🥑 ret 🏃 🐕 ❗️ 🍇
+      ↩️ ret
+    🍉
+    🙅 error 🍇
+      💭 Optionally use the built in error handling.
+      ⚕ 🐕 error ❗️
+      ↩️ -1
+    🍉
+  🍉
+
   📗 Built in way to handle errors. This isn't needed, but could be used in the catch statement if the developer doesn't want to override exception handling with an custom logic. 📗
   🔓 ❗️ ⚕ error 🚧🔸✋ 🍇
     😀 💬 error ❗️ ❗

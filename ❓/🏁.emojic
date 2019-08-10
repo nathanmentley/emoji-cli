@@ -14,49 +14,23 @@
 📦 clihelper 🐍
 
 💭 internal imports
-📜 🔤👑/🚒.emojic🔤
-📜 🔤👑/🚌.emojic🔤
-
-
-🐇 ⚓ 🍇
-  🐊 🔶🐍⛽
-  
-  🆕 🍇🍉
-
-  🔓 ❓ 📛 ➡️ 🔡🍇
-    ↩️ 🔤Example App🔤
-  🍉
-
-  🔓 ❓ 💬 ➡️ 🔡🍇
-    ↩️ 🔤Example App Description🔤
-  🍉
-
-  🔓 ❓ ♾ ➡️ 💯🍇
-    ↩️ 0.1
-  🍉
-🍉
-
+📜 🔤👑/⚙🔸🚒.emojic🔤
+📜 🔤👑/⚙🔸🚌.emojic🔤
+📜 🔤⛽🔸⚓ .emojic🔤
 
 💭main block
 🏁 ➡️ 🔢 🍇
   💭 Build app object.
   🆕 🔶🐍🚂 🆕
-    🆕 ⚓ 🆕 ❗️
-  ❗️ ➡️  app
+    🆕 ⛽🔸⚓ 🆕 ❗️
+  ❗️ ➡️ app
 
   💭 Register all commands. By assigning them to the chain method of our app object.
-  🆕 🚒 🆕 ❗️ ➡️  🔗 app ❗️
-  🆕 🚌 🆕 ❗️ ➡️  🔗 app ❗️
+  🆕 ⚙🔸🚒 🆕 ❗️ ➡️ 🔗 app ❗️
+  🆕 ⚙🔸🚌 🆕 ❗️ ➡️ 🔗 app ❗️
   💭 Optionally register the built in help command.
-  🆕 🔶🐍🏥 🆕 app ❗️ ➡️  🔗 app ❗️
+  🆕 🔶🐍⚙🔸🏥 🆕 app ❗️ ➡️ 🔗 app ❗️
 
   💭 Execute the app.
-  🥑 ret 🏃 app ❗️ 🍇
-    ↩️ ret
-  🍉
-  🙅 error 🍇
-    💭 Optionally use the built in error handling.
-    ⚕ app error ❗️
-    ↩️ -1
-  🍉
+  ↩️ 👟 app ❗
 🍉
