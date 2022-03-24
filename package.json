@@ -3,7 +3,7 @@
     "version": "0.0.9",
     "license": "MIT",
     "scripts": {
-        "install": "emojicodec -p clihelper ./🔧/🏁.emojic -o ./libclihelper.a -i ./interface.emojii -S ../",
+        "install": "emojicodec -p clihelper ./🔧/🏁.emojic -o ./libclihelper.a -i ./interface.emojii -S ..",
         "build": "yarn run install",
         "clean": "rm -f ./bin/example && rm -f ./bin/test && rm -f ./*.a && rm -f ./*.emojii && rm -f ./🔧/*.o && rm -f ./❓/*.o && rm -f ./🧪//*.o" ,
         "test": "yarn clean && yarn build && emojicodec -S ./testPackages ./🧪/🏁.emojic -o ./bin/test && ./bin/test",
