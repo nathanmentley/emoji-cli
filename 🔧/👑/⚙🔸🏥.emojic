@@ -1,7 +1,7 @@
 💭🔜
     clihelper - A CLI Library for Emojicode.
 
-    Copyright 2019 Nathan Mentley
+    Copyright 2022 Nathan Mentley
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -20,7 +20,7 @@
 
   📗 Returns a collection of command parameter definitions 📗
   🔓 ❓ 🖇 ➡️  🍨🐚📎🍆🍇
-    ↩️ 🆕🍨🐚📎🍆🐸❗️
+    ↩️ 🆕🍨🐚📎🍆❗️
   🍉
 
   📗 Returns a collection of command parameter definitions 📗
@@ -39,20 +39,20 @@
 
     🖌🐇🔶🦎🖌
       📛app❓
-      🍨
-        🆕🔶🦎🎨💙❗️
-        🆕🔶🦎🎨🌩❗️
-        🆕🔶🦎🎨🌧❗️
+      🍿
+        🆕🔶🦎🎨▶💙❗️
+        🆕🔶🦎🎨▶🌩❗️
+        🆕🔶🦎🎨▶🌧❗️
       🍆
     ❗️ ➡️ appName
     🖌🐇🔶🦎🖌
       💬app❓
-      🍨
-        🆕🔶🦎🎨🌧❗️
+      🍿
+        🆕🔶🦎🎨▶🌧❗️
       🍆
     ❗️ ➡️ appDesc
 
-    🆕🔠🆕❗️➡️ sBuilder
+    🆕🔠❗️➡️ sBuilder
     🐻sBuilder appName❗️
     🐻sBuilder 🔤 - 🔤❗️
     🐻sBuilder appDesc❗️
@@ -64,20 +64,20 @@
         ↪️ ⚙command❓➡️ command🍇
           🖌🐇🔶🦎🖌
             📛command❓
-            🍨
-              🆕🔶🦎🎨💛❗️
+            🍿
+              🆕🔶🦎🎨▶💛❗️
             🍆
           ❗➡️ commandName
 
-          🆕🔠🆕❗️➡️ sBuilder2
+          🆕🔠❗️➡️ sBuilder2
           🐻sBuilder2 🔤    🔤❗️
           🐻sBuilder2 commandName❗️
           🐻sBuilder2 🔤 - 🔤❗️
           🐻sBuilder2
             🖌🐇🔶🦎🖌
               💬command❓
-              🍨
-                🆕🔶🦎🎨🌧❗️
+              🍿
+                🆕🔶🦎🎨▶🌧❗️
               🍆
             ❗
           ❗️
@@ -87,13 +87,13 @@
             💭 format parameter name
             🖌🐇🔶🦎🖌
               📛param❓
-              🍨
-                🆕🔶🦎🎨💚❗️
+              🍿
+                🆕🔶🦎🎨▶💚❗️
               🍆
             ❗➡️ paramName
   
             💭 use string builder to build parameter string
-            🆕🔠🆕❗️➡️ sBuilder3
+            🆕🔠❗️➡️ sBuilder3
             🐻sBuilder3 🔤❌t🔤❗️
             🐻sBuilder3 paramName❗️
 
@@ -113,8 +113,8 @@
               🐻sBuilder3 
                 🖌🐇🔶🦎🖌
                   default
-                  🍨
-                    🆕🔶🦎🎨💙❗️
+                  🍿
+                    🆕🔶🦎🎨▶💙❗️
                   🍆
                 ❗
               ❗️
@@ -124,8 +124,8 @@
             🐻sBuilder3 
               🖌🐇🔶🦎🖌
                 💬param❓
-                🍨
-                  🆕🔶🦎🎨🌧❗️
+                🍿
+                  🆕🔶🦎🎨▶🌧❗️
                 🍆
               ❗
             ❗️

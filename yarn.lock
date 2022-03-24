@@ -3,5 +3,5 @@
 
 
 "colorconsole@https://github.com/nathanmentley/emoji-color-console.git":
-  version "1.0.0"
-  resolved "https://github.com/nathanmentley/emoji-color-console.git#2be38b3cfcbe9305d1f1aaa13c587b8be1bf9d62"
+  version "2.0.0"
+  resolved "https://github.com/nathanmentley/emoji-color-console.git#2e21eece68d82cd94c689c198e5bb8cc61ec0ae3"

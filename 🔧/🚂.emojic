@@ -1,7 +1,7 @@
 💭🔜
     clihelper - A CLI Library for Emojicode.
 
-    Copyright 2019 Nathan Mentley
+    Copyright 2022 Nathan Mentley
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -18,7 +18,7 @@
   💭 init
   🆕 🍼 appDelegate ⛽ 🍇
     💭 setup command dictionary.
-    🆕🍯🐚👑🍆🐸❗️➡️  🖍 commands
+    🆕🍯🐚👑🍆❗️➡️  🖍 commands
   🍉
 
   💭 getters
@@ -48,14 +48,14 @@
   📗 Registers a command into the app. 📗
   🔓 ➡️  🔗 logic ⚙ 🍇
      💭 wrap ⚙ delegate in an instance of our 👑 class.. and push that into the commands dictionary.
-     🆕 👑 🆕 logic ❗️ ➡️  🐽 commands 📪 📛 logic ❓❗️❗️
+     🆕 👑 logic ❗️ ➡️  🐽 commands 📪 📛 logic ❓❗️❗️
   🍉
 
   💭 logic
   
   📗 Executes the app based on all the registered commands and program arguments. 📗
   🔓 ❗️ 🏃 ➡️ 🔢 🚧🚧🔸✋ 🍇
-    🆕 🗺 🆕 ❗️ ➡️  context
+    🆕🗺❗️ ➡️ context
     📛 context❓ ➡️  commandName
     
     💭 If no command is passed throw error
@@ -64,7 +64,7 @@
         ↩️🔺🏃 command context ❗️
       🍉
       🙅 🍇
-         🚨🆕🚧🔸✋🆕🔤No default command.🔤❗️️
+         🚨🆕🚧🔸✋🔤No default command.🔤❗️️
       🍉
     🍉
     🙅 🍇
@@ -84,17 +84,17 @@
     🍉
     
     💭 when all fails throw unknown command error
-    🚨🆕🚧🔸✋🆕🔤Unknown Command.🔤❗️️  💭 throw error
+    🚨🆕🚧🔸✋🔤Unknown Command.🔤❗️️  💭 throw error
   🍉
 
   📗 Executes the app based on all the registered commands and program arguments and automatically handles any clihelper exceptions... and if they happen returns -1. 📗
   🔓 ❗️ 👟 ➡️ 🔢 🍇
-    🥑 ret 🏃 🐕 ❗️ 🍇
+    🆗 ret 🏃 ❗️ 🍇
       ↩️ ret
     🍉
     🙅 error 🍇
       💭 Optionally use the built in error handling.
-      ⚕ 🐕 error ❗️
+      ⚕ 👇 error ❗️
       ↩️ -1
     🍉
   🍉

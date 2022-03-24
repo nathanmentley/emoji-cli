@@ -1,7 +1,7 @@
 💭🔜
     clihelper - A CLI Library for Emojicode.
 
-    Copyright 2019 Nathan Mentley
+    Copyright 2022 Nathan Mentley
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -23,30 +23,25 @@
 
   📗 Returns the passed command name 📗
   🔓 ❓ 📛 ➡️ 🍬🔡🍇
-    ↪️ 🐔args❗️ ▶️ 1 🍇
+    ↪️ 📏args❓ ▶️ 1 🍇
       ↩️ 🐽args 1❗️
     🍉
-    
+
     ↩️ 🤷
   🍉
 
   📗 Pulls all the parameters out into a dictionary 📗
   🔓 ❓ 🏞 parameterDefs 🍨🐚📎🍆 ➡️ 🍯🐚🔡🍆 🚧🚧🔸✋ 🍇
     ↪️  params 🙌 🤷 🍇
-      🆕 🍯🐚🔡🍆 🐸❗️ ➡️  🖍🆕 ret
-      
+      🆕🍯🐚🔡🍆❗️ ➡️  🖍🆕 ret
+
       🔂 def parameterDefs 🍇
-        🥑 value 🌲 🐕 def ❓ 🍇
-          ↪️ value ➡️ value 🍇
-            value ➡️ 🐽 ret 📪 🔑 def ❓ ❗️ ❗️
-          🍉
-          🙅 🍇
-            💭 if no variable was passed store blank. Should we just not store it at all?
-            🔤🔤 ➡️ 🐽 ret 📪 🔑 def ❓ ❗️ ❗️
-          🍉
+        ↪️ 🔺🌲👇def❓ ➡️ value 🍇
+          value ➡️ 🐽 ret 📪 🔑 def ❓ ❗️ ❗️
         🍉
-        🙅 error 🍇
-          🚨error
+        🙅 🍇
+          💭 if no variable was passed store blank. Should we just not store it at all?
+          🔤🔤 ➡️ 🐽 ret 📪 🔑 def ❓ ❗️ ❗️
         🍉
       🍉
 
@@ -65,7 +60,7 @@
         ↩️ arg
       🍉
 
-      ↪️  🍪🔤--🔤 🔑def❓🍪 🙌 arg 🍇
+      ↪️ 🔤--🧲🔑def❓🧲🔤 🙌 arg 🍇
         ↪️  🚩 def ❓ 🍇
           ↩️  🔤👍🔤
         🍉
@@ -74,7 +69,7 @@
         🍉
       🍉
       ↪️  🧒def❓ ➡️ short 🍇
-        ↪️  🍪🔤-🔤 short🍪 🙌 arg 🍇
+        ↪️  🔤-🧲short🧲🔤 🙌 arg 🍇
           ↪️  🚩 def ❓ 🍇
             ↩️  🔤👍🔤
           🍉
@@ -91,7 +86,7 @@
     🙅 🍇
       ↪️ 🧠def❓ 🍇
         💭 when required parameter is completely missing
-        🚨🆕🚧🔸✋🆕🔤Missing parameter🔤❗️️
+        🚨🆕🚧🔸✋🔤Missing parameter🔤❗️️
       🍉
       ↩️ 🔤🔤
     🍉
